@@ -44,3 +44,32 @@ console.log(typeof myObj, myObj);
 console.log(typeof myFunction, myFunction());
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// ********************************************************************
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "shivanidotcom"
+
+let anotherName = myYoutubename     // copy of myYoutubename in Stack
+anotherName = "myYoutubeName"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne               // refference of userOne in Heap
+userTwo.email = "shivani@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
