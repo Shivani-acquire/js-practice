@@ -19,7 +19,6 @@ const real_another_array = another_array.flat(Infinity)
 console.log(real_another_array);
 
 
-
 console.log(Array.isArray("Shivani"))
 console.log(Array.from("Shivani"))
 console.log(Array.from({name: "shivani"})) // interesting
